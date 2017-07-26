@@ -91,7 +91,7 @@ let y = (false == "");
 
 // 13.
 let z = (0 == "");
-// A.
+// A.True
 
 
 // 14.
@@ -106,7 +106,7 @@ let b = (undefined == undefined);
 
 // 16.
 let c = (undefined == null);
-// A. False
+// A. True
 
 
 // 17.
@@ -129,10 +129,10 @@ let f = (NaN == NaN);
 // Use the variable `thirsty` as part of your conditional expression.
 // A:
 let thirsty = true;
-
-{
+if(thirsty = true){
   console.log("I'm parched!");
-} else {
+}
+else {
   console.log("I've had enough to drink.");
 }
 
@@ -146,7 +146,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:
+// A:True!
 
 
 // 22.
@@ -155,7 +155,7 @@ if(""){
 } else {
 	console.log("False!");
 }
-// A:
+// A:False!
 
 
 // 23.
@@ -167,7 +167,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:
+// A:False!
 
 
 // 24.
@@ -176,7 +176,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A:
+// A:False!
 
 
 // 25.
@@ -185,7 +185,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-// A:
+// A:True!
 
 
 // 26.
@@ -203,7 +203,7 @@ if({}){
 } else {
 	console.log("False!");
 }
-// A:
+// A:False!
 
 
 // 28.
@@ -212,7 +212,7 @@ if({name: "Yehuda Katz"}){
 } else {
 	console.log("False!");
 }
-// A:
+// A:True!
 
 
 // 29.
@@ -221,7 +221,7 @@ if(new Date()){
 } else {
 	console.log("False!");
 }
-// A:
+// A:False!
 
 
 // 30.
